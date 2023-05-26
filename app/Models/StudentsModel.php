@@ -14,7 +14,7 @@ class StudentsModel extends Model
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'stud_fullname', 'stud_id', 'stud_section', 'stud_course', 'stud_year', 'stud_year_level', 'stud_profile'
+        'student_name', 'student _section', 'student_course', 'student_batch', 'student_grade_level', 'student_profile'
     ];
 
     // Dates
